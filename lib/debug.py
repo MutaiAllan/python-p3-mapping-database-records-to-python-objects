@@ -9,6 +9,11 @@ def reset_database():
     Song.create("99 Problems", "The Black Album")
 
 
-if __name__ == '__main__':
-    reset_database()
-    import ipdb; ipdb.set_trace()
+#if __name__ == '__main__':
+#    reset_database()
+#    import ipdb; ipdb.set_trace()
+
+reset_database()
+
+import pytest; pytest.set_trace()
+
